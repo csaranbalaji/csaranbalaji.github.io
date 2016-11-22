@@ -1,0 +1,15 @@
+<html>
+<body>
+<button onclick="WriteFile()">button</button>
+</body>
+<script>
+function WriteFile()
+{alert("done");
+   var fso  = new ActiveXObject("Scripting.FileSystemObject");
+   alert("done");
+   var fh = fso.CreateTextFile("message.txt", true);
+   fh.WriteLine("Some text goes here...");
+   fh.Close();
+}
+</script>
+</html>
