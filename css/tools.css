@@ -1,0 +1,229 @@
+.technologies {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  list-style-type: none
+}
+
+.technologies-text h3 {
+  font-weight: 700;
+  letter-spacing: -.05em;
+  color: #333;
+  margin: 0 0 10px 0;
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.technologies li {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  background: #fff;
+  box-shadow: 0 0 3px #ccc;
+  overflow: hidden
+}
+
+.technologies li:hover {
+  box-shadow: 0 0 10px #acacac;
+  cursor: pointer
+}
+
+.technologies li:hover>span {
+  opacity: .08
+}
+
+.technologies li:hover .technologies-text,
+.technologies li:hover .technologies-text span {
+  opacity: 1
+}
+
+.technologies li:hover .technologies-text h3 {
+  margin: 0;
+  line-height: 1.1
+}
+
+.technologies li:hover .technologies-text p {
+  font-size: 12px;
+  line-height: 1.1;
+  margin: 5px 0 0
+}
+
+.technologies li:hover .technologies-text .link {
+  font-size: 12px;
+}
+
+.technologies li>span {
+  display: block;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin: 10px
+}
+
+.technologies .technologies-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s
+}
+
+.technologies .technologies-text span {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1em;
+  color: #707070;
+  width: 100px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+  text-align: center;
+  opacity: 0
+}
+
+.tech {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2em;
+  color: #707070;
+}
+
+.icon-technologies-apache,
+.icon-technologies-atom,
+.icon-technologies-os,
+.icon-technologies-angular,
+.icon-technologies-browsers,
+.icon-technologies-css3,
+.icon-technologies-git,
+.icon-technologies-github,
+.icon-technologies-html5,
+.icon-technologies-javascript,
+.icon-technologies-jquery,
+.icon-technologies-mysql,
+.icon-technologies-nginx,
+.icon-technologies-nodejs,
+.icon-technologies-responsive,
+.icon-technologies-python,
+.icon-technologies-vagrant {
+  background-image: url(https://s3-us-west-2.amazonaws.com/txw2/Portfolio/logos.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-docker {
+  background-image: url(https://d1099yxbcpf3k9.cloudfront.net/theme/logo/thumbnail/67637761d1293f816ab48c9ac1c1da67);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-materializecss {
+  background-image: url(http://krunalrasik.com/img/skills/materialize.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-codeigniter {
+  background-image: url(http://www.ibitsolution.com/images/technology_img/codeigniter.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-mongodb {
+  background-image: url(https://cdn.safe.com/images/format/mongodb1_100x100.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-bootstrap {
+  background-image: url(http://www.nebula-marketing.co.uk/assets/images/bootstrap-logo.jpg);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-apache {
+  background-position: 0 -300px
+}
+
+.icon-technologies-atom {
+  background-position: -400px -100px
+}
+
+.icon-technologies-os {
+  background-position: -300px -100px
+}
+
+.icon-technologies-angular {
+  background-position: 0 -200px
+}
+
+.icon-technologies-browsers {
+  background-position: -400px 0
+}
+
+.icon-technologies-css3 {
+  background-position: -100px 0
+}
+
+.icon-technologies-git {
+  background-position: -100px -100px
+}
+
+.icon-technologies-github {
+  background-position: -200px -100px
+}
+
+.icon-technologies-html5 {
+  background-position: 0 0
+}
+
+.icon-technologies-javascript {
+  background-position: -200px 0
+}
+
+.icon-technologies-jquery {
+  background-position: -300px 0
+}
+
+.icon-technologies-mysql {
+  background-position: -100px -200px
+}
+
+.icon-technologies-nginx {
+  background-position: -100px -300px
+}
+
+.icon-technologies-nodejs {
+  background-position: -200px -200px
+}
+
+.icon-technologies-responsive {
+  background-position: 0 -100px
+}
+
+.icon-technologies-python {
+  background-position: -400px -200px
+}
+
+.icon-technologies-docker {
+  background-position: -300px -200px
+}
+
+.fccIcon {
+  color: #fff;
+  height: 30px;
+  width: 30px
+}
+
+.hIcon {
+  color: #fff;
+  height: 30px;
+  width: 30px
+}
