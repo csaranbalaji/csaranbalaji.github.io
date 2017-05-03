@@ -123,6 +123,16 @@
   width: 100px;
   height: 100px;
 }
+.icon-technologies-geany {
+  background-image: url(https://screenshots.de.sftcdn.net/de/scrn/78000/78355/geany-7.jpg);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-redis {
+  background-image: url(https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/000/07f/0cd/3d2f34d.png);
+  width: 100px;
+  height: 100px;
+}
 .icon-technologies-docker {
   background-image: url(https://d1099yxbcpf3k9.cloudfront.net/theme/logo/thumbnail/67637761d1293f816ab48c9ac1c1da67);
   width: 100px;
@@ -140,6 +150,11 @@
 }
 .icon-technologies-mongodb {
   background-image: url(https://cdn.safe.com/images/format/mongodb1_100x100.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-django {
+  background-image: url(https://s3.amazonaws.com/openshift-hub/production/quickstarts/72/django.png);
   width: 100px;
   height: 100px;
 }
