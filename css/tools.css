@@ -119,12 +119,12 @@
 .icon-technologies-responsive,
 .icon-technologies-python,
 .icon-technologies-vagrant {
-  background-image: url(https://s3-us-west-2.amazonaws.com/txw2/Portfolio/logos.png);
+  background-image: url(http://csaranbalaji.github.io/img/tools/logos.png);
   width: 100px;
   height: 100px;
 }
 .icon-technologies-geany {
-  background-image: url(https://screenshots.de.sftcdn.net/de/scrn/78000/78355/geany-7.jpg);
+  background-image: url(http://csaranbalaji.github.io/img/tools/geany.png);
   width: 100px;
   height: 100px;
 }
