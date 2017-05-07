@@ -158,6 +158,26 @@
   width: 100px;
   height: 100px;
 }
+.icon-technologies-gcp {
+  background-image: url(http://csaranbalaji.github.io/img/tools/gcp.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-travisci {
+  background-image: url(http://csaranbalaji.github.io/img/tools/travis-ci.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-font {
+  background-image: url(http://csaranbalaji.github.io/img/tools/fontawesome.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-bitbucket {
+  background-image: url(http://csaranbalaji.github.io/img/tools/bitbucket.png);
+  width: 100px;
+  height: 100px;
+}
 .icon-technologies-bootstrap {
   background-image: url(http://csaranbalaji.github.io/img/tools/bootstrap.jpg);
   width: 100px;
