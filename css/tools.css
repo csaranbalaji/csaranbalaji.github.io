@@ -183,6 +183,11 @@
   width: 100px;
   height: 100px;
 }
+.icon-technologies-tensorflow {
+  background-image: url(http://csaranbalaji.github.io/img/tools/tensorflow.jpg);
+  width: 100px;
+  height: 100px;
+}
 .icon-technologies-apache {
   background-position: 0 -300px
 }
