@@ -184,7 +184,12 @@
   height: 100px;
 }
 .icon-technologies-tensorflow {
-  background-image: url(http://csaranbalaji.github.io/img/tools/tensorflow.jpg);
+  background-image: url(http://csaranbalaji.github.io/img/tools/tensorflow.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-scipy {
+  background-image: url(http://csaranbalaji.github.io/img/tools/scipy.jpg);
   width: 100px;
   height: 100px;
 }
