@@ -193,6 +193,11 @@
   width: 100px;
   height: 100px;
 }
+.icon-technologies-ipython {
+  background-image: url(http://csaranbalaji.github.io/img/tools/ipython.jpg);
+  width: 100px;
+  height: 100px;
+}
 .icon-technologies-apache {
   background-position: 0 -300px
 }
