@@ -198,6 +198,11 @@
   width: 100px;
   height: 100px;
 }
+.icon-technologies-jupyter {
+  background-image: url(http://csaranbalaji.github.io/img/tools/jupyter.png);
+  width: 100px;
+  height: 100px;
+}
 .icon-technologies-apache {
   background-position: 0 -300px
 }
