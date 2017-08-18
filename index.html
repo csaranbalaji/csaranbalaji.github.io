@@ -77,8 +77,8 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">Saran Balaji</a> </div>
-      
+        <a id="bubble" class="navbar-brand page-scroll" href="#page-top">Saran Balaji</a> </div>
+
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
@@ -105,6 +105,7 @@
       <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
       <div class="col-md-8 col-md-offset-2">
         <div class="about-text" style="color:black">
+					<!--p id="bubble"></p-->
           <p>I am a Computer Science Undergraduate with a love for Data Science. I identify myself as an ardent coder. I can code in various languages. I have completed three projects and have also published a paper in an international journal. </p>
           <p>I have learnt immensely by participating actively in over 15+ workshop in different domains. I love learning new things and expanding the horizon. As a testimony to my skills, I have won various awards in various contests.</p>
           <p>Apart from learning extensively, I also love to help others code. This has made me the current CTO of iCode - an entrepreneurial venture in my campus, where I lead the technical team. I've also taught Python in iCode to over 20 students so far.</p>
@@ -609,9 +610,9 @@
     <div class="row">
       <div class="col-lg-12">
         <ul class="timeline">
-          
+
           <!-- Education Section-->
-          
+
           <li>
             <div class="timeline-image">
               <h4>2014 <br>
@@ -694,7 +695,7 @@
       <div class="clearfix"></div>
     </div>
     <div class="col-md-8 col-md-offset-2">
-     
+
       <div class="social">
         <ul>
           <li><a href="https://www.github.com/csaranbalaji" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -730,19 +731,45 @@
   href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
 />
 
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/easypiechart.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.js"></script>
+<script type="text/javascript" src="js/waypoints.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="js/jquerybubble.js" type="text/javascript"></script>
 <script>
     GitHubCalendar(".calendar", "csaranbalaji");
+		$(document).ready(function () {
+	    var $element = $('#bubble');
+	    var phrases = [
+	        'Saran Balaji',
+					'Full Stack Developer',
+
+
+
+
+	    ];
+	    var index = -1;
+	    (function loopAnimation() {
+	        index = (index + 1) % phrases.length;
+	        bubbleText({
+	            element: $element,
+	            newText: phrases[index],
+	            letterSpeed: 70,
+	            callback: function () {
+	                setTimeout(loopAnimation, 2000);
+	            },
+	        });
+	    })();
+	});
 </script>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
