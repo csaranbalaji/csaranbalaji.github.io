@@ -203,6 +203,51 @@
   width: 100px;
   height: 100px;
 }
+.icon-technologies-aws {
+  background-image: url(http://csaranbalaji.github.io/img/tools/aws.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-eclipse {
+  background-image: url(http://csaranbalaji.github.io/img/tools/eclipse.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-dynamodb {
+  background-image: url(http://csaranbalaji.github.io/img/tools/dynamodb.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-elastic {
+  background-image: url(http://csaranbalaji.github.io/img/tools/elastic.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-jira {
+  background-image: url(http://csaranbalaji.github.io/img/tools/jira.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-quip {
+  background-image: url(http://csaranbalaji.github.io/img/tools/quip.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-xcode {
+  background-image: url(http://csaranbalaji.github.io/img/tools/xcode.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-kibana {
+  background-image: url(http://csaranbalaji.github.io/img/tools/kibana.png);
+  width: 100px;
+  height: 100px;
+}
+.icon-technologies-ios {
+  background-image: url(http://csaranbalaji.github.io/img/tools/ios.png);
+  width: 100px;
+  height: 100px;
+}
 .icon-technologies-apache {
   background-position: 0 -300px
 }
