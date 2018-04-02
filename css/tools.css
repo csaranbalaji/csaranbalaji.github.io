@@ -253,6 +253,11 @@
   width: 100px;
   height: 100px;
 }
+.icon-technologies-testng {
+  background-image: url(http://csaranbalaji.github.io/img/tools/testng.png);
+  width: 100px;
+  height: 100px;
+}
 .icon-technologies-apache {
   background-position: 0 -300px
 }
